@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ForwardNavigationController_Example' do
+  pod 'ForwardNavigationController', :path => '../'
+
+  target 'ForwardNavigationController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
