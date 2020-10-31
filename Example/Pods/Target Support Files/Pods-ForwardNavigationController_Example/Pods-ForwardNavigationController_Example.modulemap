@@ -1,0 +1,6 @@
+framework module Pods_ForwardNavigationController_Example {
+  umbrella header "Pods-ForwardNavigationController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

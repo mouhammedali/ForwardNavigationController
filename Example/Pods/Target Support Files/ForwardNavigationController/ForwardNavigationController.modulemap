@@ -1,0 +1,6 @@
+framework module ForwardNavigationController {
+  umbrella header "ForwardNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}

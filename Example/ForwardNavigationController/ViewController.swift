@@ -7,18 +7,28 @@
 //
 
 import UIKit
-
+import ForwardNavigationController
 class ViewController: UIViewController {
-
+    var vcNumber = 1
+    @IBOutlet private weak var numberLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        setupUI()
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let vc = ForwardNavigationController(rootViewController: UIViewController)
+//        (self.navigationController as? ForwardNavigationController)
     }
-
+    
+    @IBAction func pushPressed(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        vc.vcNumber = vcNumber + 1
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    private func setupUI() {
+        numberLabel.text = "\(vcNumber)"
+        let randomColor: UIColor = .random
+        view.backgroundColor = randomColor
+        numberLabel.textColor = randomColor.complement
+    }
 }
-

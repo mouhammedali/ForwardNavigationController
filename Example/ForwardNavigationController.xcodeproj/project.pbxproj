@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E46ADB0254DDE9900BC3B08 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46ADAF254DDE9900BC3B08 /* UIColorExtension.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,7 +30,8 @@
 
 /* Begin PBXFileReference section */
 		05912ADAE8A2B5DAB81203BF /* Pods-ForwardNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForwardNavigationController_Tests.release.xcconfig"; path = "Target Support Files/Pods-ForwardNavigationController_Tests/Pods-ForwardNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		106AC8935174EDEE69B16EE0 /* ForwardNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ForwardNavigationController.podspec; path = ../ForwardNavigationController.podspec; sourceTree = "<group>"; };
+		0E46ADAF254DDE9900BC3B08 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		106AC8935174EDEE69B16EE0 /* ForwardNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ForwardNavigationController.podspec; path = ../ForwardNavigationController.podspec; sourceTree = "<group>"; };
 		1887DB20EE99C46A6D0E4325 /* Pods_ForwardNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForwardNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ForwardNavigationController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForwardNavigationController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +45,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		66B14E10F2D62780B6EE1BEC /* Pods-ForwardNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForwardNavigationController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ForwardNavigationController_Tests/Pods-ForwardNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9240FE6E14F67B0BB818AC6A /* Pods-ForwardNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForwardNavigationController_Example.debug.xcconfig"; path = "Target Support Files/Pods-ForwardNavigationController_Example/Pods-ForwardNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A76AC8498A7D763E52F34C71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A76AC8498A7D763E52F34C71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C5FA3DC665E3C8A72F4C213A /* Pods-ForwardNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForwardNavigationController_Example.release.xcconfig"; path = "Target Support Files/Pods-ForwardNavigationController_Example/Pods-ForwardNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D5E2ACBC724A7870B5BEFCB0 /* Pods_ForwardNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForwardNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDEF72F86784EB49FA18CB63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDEF72F86784EB49FA18CB63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 				66B14E10F2D62780B6EE1BEC /* Pods-ForwardNavigationController_Tests.debug.xcconfig */,
 				05912ADAE8A2B5DAB81203BF /* Pods-ForwardNavigationController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				0E46ADAF254DDE9900BC3B08 /* UIColorExtension.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -171,7 +173,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				A5BFB8A8A852940AE633DCB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,24 +286,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5BFB8A8A852940AE633DCB4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ForwardNavigationController_Example/Pods-ForwardNavigationController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ForwardNavigationController/ForwardNavigationController.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ForwardNavigationController.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForwardNavigationController_Example/Pods-ForwardNavigationController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F9652D66BE52CE52E49A3207 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +317,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0E46ADB0254DDE9900BC3B08 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,16 @@
+PODS:
+  - ForwardNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - ForwardNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  ForwardNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ForwardNavigationController: 6cb11be7cb69814ce34416a0d89225a68fa63b66
+
+PODFILE CHECKSUM: 1f5af2249f5fd872ae20e3849c0bbbcf6ec10126
+
+COCOAPODS: 1.9.3
