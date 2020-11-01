@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
 
-        let vc = ForwardNavigationController(rootViewController: UIViewController)
+        (self.navigationController as? ForwardNavigationController)?.allowForward = false
 //        (self.navigationController as? ForwardNavigationController)
     }
     

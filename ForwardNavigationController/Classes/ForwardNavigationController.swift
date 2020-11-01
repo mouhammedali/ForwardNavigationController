@@ -13,7 +13,7 @@ public class ForwardNavigationController: UINavigationController {
     private var interactionController: UIPercentDrivenInteractiveTransition?
     // MARK: - Public Properties
     var forwardVCs = [UIViewController]()
-    @IBInspectable var allowForward: Bool = true
+    @IBInspectable public var allowForward: Bool = true
     // MARK: - Initializers
     init() {
         super.init(nibName: nil, bundle: nil)
@@ -188,7 +188,7 @@ public class ForwardNavigationController: UINavigationController {
 
 // MARK: UINavigationController Delegate
 extension ForwardNavigationController: UINavigationControllerDelegate {
-    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> public UIViewControllerAnimatedTransitioning? {
+    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return TransitionAnimator(presenting: operation == .push, isRTL: isRTL())
     }
     

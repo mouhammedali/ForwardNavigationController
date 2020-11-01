@@ -38,6 +38,9 @@
                                 <rect key="frame" x="266" y="7" width="93" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Push New VC"/>
+                                <connections>
+                                    <action selector="pushPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VP1-30-Yd0"/>
+                                </connections>
                             </button>
                             <connections>
                                 <action selector="pushPressed:" destination="vXZ-lx-hvc" id="bZ7-93-onU"/>
@@ -52,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="1044" y="118.29085457271366"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Forward Navigation Controller-->
         <scene sceneID="eYe-4X-5w4">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hvx-uP-iR5" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hvx-uP-iR5" customClass="ForwardNavigationController" customModule="ForwardNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dgp-6x-cr4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

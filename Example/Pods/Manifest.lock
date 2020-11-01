@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ForwardNavigationController: 6cb11be7cb69814ce34416a0d89225a68fa63b66
+  ForwardNavigationController: 0de3e9457805d754181546ba1119479da6115c36
 
 PODFILE CHECKSUM: 1f5af2249f5fd872ae20e3849c0bbbcf6ec10126
 

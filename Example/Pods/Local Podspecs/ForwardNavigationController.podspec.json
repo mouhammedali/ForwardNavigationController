@@ -1,8 +1,7 @@
 {
   "name": "ForwardNavigationController",
   "version": "0.1.0",
-  "summary": "A short description of ForwardNavigationController.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Forward to any popped viewController with familiar slide gesture.",
   "homepage": "https://github.com/mouhammedali/ForwardNavigationController",
   "license": {
     "type": "MIT",
@@ -16,7 +15,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "ForwardNavigationController/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "ForwardNavigationController/Classes/**/*",
+  "swift_version": "5.0"
 }
