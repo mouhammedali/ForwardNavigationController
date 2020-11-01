@@ -11,7 +11,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ForwardNavigationController.svg?style=flat)](https://cocoapods.org/pods/ForwardNavigationController)
 [![License](https://img.shields.io/cocoapods/l/ForwardNavigationController.svg?style=flat)](https://cocoapods.org/pods/ForwardNavigationController)
 [![Platform](https://img.shields.io/cocoapods/p/ForwardNavigationController.svg?style=flat)](https://cocoapods.org/pods/ForwardNavigationController)
-![](https://i.imgur.com/RYAkMra.mp4)
+![](https://media4.giphy.com/media/pAbIVBSLSbkiSFLFfI/giphy.gif)
 >Forward to any popped viewController with familiar slide gesture
 
 ## Features
